@@ -42,7 +42,7 @@ def getBookstoreInfo(items):
       expander.subheader('Address')
       expander.write(item['address'])
       expander.subheader('Open Time')
-      expander.write(item['opentime'])
+      expander.write(item['openTime'])
       expander.subheader('Email')
       expander.write(item['email'])
       expanderList.append(expander)
